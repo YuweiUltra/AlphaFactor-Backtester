@@ -26,7 +26,7 @@ zipline ingest
 ### Creating a Custom Bundle
 Zipline uses bundle data to speed up backtests. Therefore, we need to create and ingest our custom bundle data.
 
-In this project, I used Quandl EOD data downloaded from Nasdaq Data Link. First, I ran a quandl_preprocessing script to store the data in a more readable quandl.h5 file with a unique sid for each ticker. (This step is optional.)
+In this project, I used Quandl EOD data downloaded from Nasdaq Data Link. First, I ran a quandl_preprocessing script to store the data in a more readable quandl.h5 file with a unique sid for each ticker. (! This step is time consuming and not necessary if you use data from other source.)
 
 Next, create quandl_custom_bundle.py (the name can vary) and extension.py in the .zipline/ directory.
 
