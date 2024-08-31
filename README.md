@@ -6,7 +6,7 @@
 ### Required install
 At first, two additional packages, zipline and pyfolio are required to clone
 1. clone pyfolio-reloaded for analysing and plotting the backtest results [here is a fetch to output the plots in a entire html file ](https://github.com/YuweiUltra/pyfolio-reloaded)
-2. clone zipline-reloaded (for backtest)
+2. clone zipline-reloaded for backtesting trading [link](https://github.com/YuweiUltra/zipline-reloaded)
 3. clone this AlphaFactor-Backtester repo
 
 ### project Structure
