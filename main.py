@@ -140,7 +140,7 @@ def my_function(context, data):
         # Used in decile backtesting
         top_longs = ranks[(ranks > BacktestSetting.up_cutoff) & (ranks < BacktestSetting.low_cutoff)].nlargest(
             context.n_longs)
-        top_shorts = pd.DataFrame()
+        top_shorts = ranks[(ranks > BacktestSetting.short_up_cutoff) & (ranks < BacktestSetting.short_low_cutoff)]
 
     assert len(top_longs) <= context.n_longs
     assert len(top_shorts) <= context.n_shorts
