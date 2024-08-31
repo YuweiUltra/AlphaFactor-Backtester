@@ -52,9 +52,11 @@ After successfully ingesting the data, the directory structure will look like th
 └── extension.py
 ```
 
-### Starting the Backtest
+### Starting the Backtest 
 You can start the backtest by running main.py with terminal arguments for parsing parameters, or you can directly run one of the following scripts:
 
 	•	backtest_DollarNeutral.py
 	•	backtest_Parallelize.py
 	•	backtest_Decile.py
+
+### glhf 😄
