@@ -62,6 +62,7 @@ You can start the backtest by running main.py with terminal arguments for parsin
 
 ---
 
+## Thanks
 We are truly grateful to Jason from Deception & Truth Analysis and Morgan from Exponential Tech for providing us with these fantastic datasets and the opportunity to learn so much during this project. We’re excited about the insights we’ve gained and look forward to seeing how these signals can be applied in real-world trading scenarios.
 
 Finally, enjoy the research and have fun! Good luck and happy trading! 😄
